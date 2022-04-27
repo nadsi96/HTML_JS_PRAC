@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="../jquery/jquery-3.4.1.js"></script>
+        <script src="set_dragAnimation.js"></script>
+        <script src="example.js"></script>
+        <link rel="stylesheet" href="example.css">
+    </head>
+    <body onload="onLoad()">
+        <div>
+            <div>
+                <p>drag animation</p>
+                <p id="dir_info">right to left</p>
+            </div>
+            <div class="container">
+                <div id="dragger" class="dragger"></div>
+                <div>
+                    <p id="content">hi</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <button onclick="changeDragDir('left')">left</button>
+            <button onclick="changeDragDir('right')">right</button>
+            <button onclick="changeDragDir('top')">top</button>
+            <button onclick="changeDragDir('bottom')">bottom</button>
+        </div>
+    </body>
+</html>
