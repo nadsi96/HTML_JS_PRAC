@@ -1,0 +1,32 @@
+#itemArea{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+#copy_listItem{
+    display: none !important;
+}
+.listItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    background-color: wheat;
+    height: 25px
+}
+.listItem.dragging{
+    background-color: yellow;
+}
+.title{
+    width: 50px;
+    height: 25px;
+}
+.dragger{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 12px;
+    font-size: 12px;
+    border-left: 1px solid black;
+}
