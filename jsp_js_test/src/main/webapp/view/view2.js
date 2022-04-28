@@ -1,0 +1,7 @@
+/**
+ * 
+ */
+
+function initPage(received){
+    debugger
+}
